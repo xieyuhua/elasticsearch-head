@@ -1,0 +1,11 @@
+{
+	"main": "index.html",
+	"logo": "logo_48.png",
+	"features": [
+		{
+		  "code": "elasticsearch-head",
+		  "explain": "elasticsearch-head",
+			"cmds":["elasticsearch-head", "elasticsearch"]
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+   "background": {
+      "scripts": [ "src/background.js" ]
+   },
+   "browser_action": {
+
+   },
+   "content_security_policy": "script-src 'self' 'sha256-Rpn+rjJuXCjZBPOPhhVloRXuzAUBRnAas+6gKVDohs0=' 'unsafe-eval'; object-src 'self';",
+   "description": "ElasticSearch Head",
+   "icons": {
+      "128": "icons/logo_128.png",
+      "16": "icons/logo_16.png",
+      "32": "icons/logo_32.png",
+      "48": "icons/logo_48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAswFz4pEr2tqcmjkUyP4mpge5lm6S5P6l8wWO0VJUjvRsl7HCSpdnfEws70w/NPCVl2TiuwhwgmvBiasqt34n99qEvUAdatsuO3CACChyaVWJZym5FlHX5K3I72zLAirAoJZsY+NQOpioieQobhycDdFk2bF0DNAa5xiR5cPHFoyhaZ0Ki1QqyWZTif1O+lOMW2Gkd7TkSndd2H9NYiizLtvTDQ3J7bb9sFjFyxv6iPz86Tia/bTsIEhNN/U7b2q/Y64VjDKxM4kpmsElFu+FxA57SxCyNnEwlOwygYxBfsnIwkhWk7kO0yM9r/H8Fx8Tq43iY1wM7yuiq7npCrTwIQIDAQAB",
+   "manifest_version": 2,
+   "name": "ElasticSearch Head",
+   "permissions": [ "http://*/*", "https://*/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.1.2"
+}
